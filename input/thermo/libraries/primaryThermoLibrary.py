@@ -823,15 +823,13 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
     ],
 )
 
-
-
 entry(
     index = 31,
     label = "Cl2",
     molecule = 
 """
-1     Cl    0 {2,S}
-2     Cl    0 {1,S}
+1 Cl 0 {2,S}
+2 Cl 0 {1,S}
 """,
     thermo = NASA(
         polynomials=[
@@ -861,7 +859,7 @@ entry(
     label = "Cl",
     molecule = 
 """
-1     Cl    1
+1 Cl 1
 """,
     thermo = NASA(
         polynomials=[
@@ -891,8 +889,8 @@ entry(
     label = "HCl",
     molecule = 
 """
-1     Cl    0 {2,S}
-2     H     0 {1,S}
+1 Cl 0 {2,S}
+2 H  0 {1,S}
 """,
     thermo = NASA(
         polynomials=[
