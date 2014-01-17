@@ -601,6 +601,32 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 
 entry(
     index = 23,
+    label = "N(D)",
+    molecule = 
+"""
+1 N 3D 1
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([4.968,4.968,4.968,4.968,4.968,4.968,4.968],'cal/(mol*K)'),
+        H298 = (173.457,'kcal/mol'),
+        S298 = (35.231,'cal/(mol*K)'),
+    ),
+    reference = None,
+    referenceType = "",
+    shortDesc = u"""""",
+    longDesc = 
+u"""
+level of theory energy: CCSD(T)F12A/cc-pVQZ-F12//CCSD(T)/cc-pVQZ
+level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
+""",
+    history = [
+        ("Mon Nov 18 10:25:25 2012","Beat Buesser <bbuesser@mit.edu>","action","""Beat Buesser <bbuesser@mit.edu> created this value."""),
+    ],
+)
+
+entry(
+    index = 24,
     label = "NH(T)",
     molecule = 
 """
@@ -628,7 +654,7 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 )
 
 entry(
-    index = 24,
+    index = 25,
     label = "NH2(D)",
     molecule = 
 """
@@ -657,7 +683,7 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 )
 
 entry(
-    index = 25,
+    index = 26,
     label = "NH3",
     molecule = 
 """
@@ -687,7 +713,7 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 )
 
 entry(
-    index = 26,
+    index = 27,
     label = "O(S)",
     molecule = 
 """
@@ -714,7 +740,7 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 )
 
 entry(
-    index = 27,
+    index = 28,
     label = "O(T)",
     molecule = 
 """
@@ -741,7 +767,7 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 )
 
 entry(
-    index = 28,
+    index = 29,
     label = "OH(D)",
     molecule = 
 """
@@ -769,7 +795,7 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 )
 
 entry(
-    index = 29,
+    index = 30,
     label = "H2O",
     molecule = 
 """
@@ -800,7 +826,7 @@ level of theory frequency: B3LYP/6-311++g(d,p)//B3LYP/6-311++g(d,p)
 
 
 entry(
-    index = 30,
+    index = 31,
     label = "Cl2",
     molecule = 
 """
@@ -831,7 +857,7 @@ Sq Error Cp @ 6000 **1.26%** (Cp @ 700 K 0.08%)
 )
 
 entry(
-    index = 31,
+    index = 32,
     label = "Cl",
     molecule = 
 """
@@ -861,7 +887,7 @@ HF298=121.302+/-0.008 kJ HF0=119.633+/- 0.008 kJ  REF=JANAF  {HF298=121.302
 )
 
 entry(
-    index = 32,
+    index = 33,
     label = "HCl",
     molecule = 
 """
